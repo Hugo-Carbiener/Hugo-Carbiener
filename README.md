@@ -17,5 +17,5 @@
 
 - #### **Find me here** 
 
-:mail: [mail](mailto:hugocarbiener@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)  
+:email: [mail](mailto:hugocarbiener@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)  
 :link: [Linkedin](https://www.linkedin.com/in/hugo-carbiener/)
