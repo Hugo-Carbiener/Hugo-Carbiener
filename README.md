@@ -2,9 +2,9 @@
 
 :wrench: - I'm an engineering student at [Telecom Sudparis](https://www.telecom-sudparis.eu). 
 
-
 ---
-- #### **What I do**
+
+#### What I do
 
 :video_game: - Gaming my way through the pandemic, [check it out](https://ggapp.io/Kohuro/collection)!
 
@@ -15,7 +15,7 @@
 
 ---
 
-- #### **Find me here** 
+#### Find me here
 
 :email: [mail](mailto:hugocarbiener@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)  
 :link: [Linkedin](https://www.linkedin.com/in/hugo-carbiener/)
