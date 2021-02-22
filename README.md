@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-:wrench: - I'm an engineering student at [Telecom Sudparis](https://www.telecom-sudparis.eu). 
+:wrench: - I'm Hugo, an engineering student at [Telecom Sudparis](https://www.telecom-sudparis.eu). There I get to learn about many aspects of telecommunications along with programming languages such as Bash and Java.
 
 ---
 
