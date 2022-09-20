@@ -13,8 +13,8 @@
 :pencil2: - I also do **Pixel Art** when I have time. I've been part of a lot of awesome video game projects lately, be it as a graphic designer or developper. Come have a look, I post most of my drawings [here](https://www.reddit.com/user/K0huro/posts/).. I'm using [Aseprite](https://www.aseprite.org/) which is a fantastic tool for Pixel Art.
 
 :alarm_clock: - I absolutely love taking part in **Game Jams**. The objective is to form a team and develop a video game from scratch in 48 hours. Have a look at the games I took part in the making:
-- [Sort'it 'till you make it](https://skizaat.itch.io/sortit-till-you-make-it) | Unijam 2021 | **Lead developper**
-- [Geckolot](https://mathieu-coutant.itch.io/geckolot) | Global Game Jam 2022 | **Lead graphic designer & Developper**
+- [Sort'it 'till you make it](https://skizaat.itch.io/sortit-till-you-make-it) | Unijam 2021 | **Lead developer**
+- [Geckolot](https://mathieu-coutant.itch.io/geckolot) | Global Game Jam 2022 | **Lead graphic designer & developer**
 - [Neon Dice](https://flegmatik-surf.itch.io/neon-dice) | GTMK Game Jam 2022 | **Lead graphic designer**
 
 ---
@@ -66,7 +66,7 @@ Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check o
 <br/>
 
 ![Mockup](https://user-images.githubusercontent.com/41008899/188655584-762db231-84c5-4257-bd18-8f34a10e9bef.gif)
-Neon Dice is a two player **hack n' slash** inspired by the theme **Role of the Dice** for the 2022 GMTK Game Jam. Each player controls one of the dices. Each face of your dice correspond to a particular weapon with a fixed amount of ammunition. If you run out of ammo, you will have to regroup with your teammate so they can roll you. But beware, if you get rolled, your weapon will most likely change as well, so be prepared!   
+Neon Dice is a two player **hack n' slash** inspired by the theme **Roll of the Dice** for the 2022 GMTK Game Jam. Each player controls one of the two dices. Each face of your dice corresponds to a particular weapon with a fixed amount of ammunition. If you run out of ammo, you will have to regroup with your teammate so they can roll you. But beware, if you get rolled, your weapon will most likely change as well, so be prepared!   
 
 Despite a few issues during the developpement, the game turned out accordingly to our expectations and I am particularly proud of the art and of the workflow I managed to achieve. 
 
@@ -93,4 +93,4 @@ Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-S
 
 :email: [Mail](mailto:hugocarbiener@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)  
 :link: [Linkedin](https://www.linkedin.com/in/hugo-carbiener/)  
-:video_game: [Itch.io](https://itch.io/c/1922828/hugo-carbieners-collection)
+:video_game: [Itch.io](https://kohuro.itch.io/)
