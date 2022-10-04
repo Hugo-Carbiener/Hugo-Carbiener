@@ -35,6 +35,16 @@
 
 <br/>
 
+### **Dungeon Speaker, an academic dev project**
+
+<br/>
+
+![start](https://user-images.githubusercontent.com/41008899/193330976-6a4008de-39e4-4b4e-b760-c111f5825708.png)
+
+**Dungeon Speaker** is a *text-based* dungeon crawler inspired from [AI Dungeon](https://play.aidungeon.io/). We worked on it as a team of four junior students at Telecom Sudparis for our **oriented object programming** class. Sadly, being our first game, the build was somewhat messy and is not playable anymore. 
+
+<br/>
+
 ### **Sort'it 'till you make it, our 2021 Unijam project**
 
 <br/>
