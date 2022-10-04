@@ -113,6 +113,6 @@ Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-S
 
 ### **Find me here**
 
-:email: [Mail](mailto:hugocarbiener@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)  
-:link: [Linkedin](https://www.linkedin.com/in/hugo-carbiener/)  
+[![Linkedin]([http://www.google.com.au/images/nav_logo7.png](https://www.citypng.com/public/uploads/preview/hd-linkedin-white-logo-transparent-background-31623962286lx7yrezhte.png))](https://www.linkedin.com/in/hugo-carbiener/)
+:link: [Linkedin]()  
 :video_game: [Itch.io](https://kohuro.itch.io/)
