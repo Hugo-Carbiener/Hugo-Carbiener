@@ -83,7 +83,8 @@ Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-S
 
 --- 
 
-# **I also do some dope Pixel Art ! - Here is some of my work**
+# **I also do some Pixel Art ! - Here is some of my [work](https://www.reddit.com/user/K0huro)**
+
 
 <br/>
 
@@ -112,7 +113,8 @@ Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-S
 ---
 
 ### **Find me here**
-
-[![Linkedin]([http://www.google.com.au/images/nav_logo7.png](https://www.citypng.com/public/uploads/preview/hd-linkedin-white-logo-transparent-background-31623962286lx7yrezhte.png))](https://www.linkedin.com/in/hugo-carbiener/)
-:link: [Linkedin]()  
-:video_game: [Itch.io](https://kohuro.itch.io/)
+<div>
+<a href="https://www.linkedin.com/in/hugo-carbiener/"><img src="https://user-images.githubusercontent.com/41008899/193760652-86ac2ba7-a8a6-4b04-ae52-3906e7f5b43b.png" style="width:33%;padding-left:5px;"><a/>
+<a href="https://www.discordapp.com/users/Kohuro#0702"><img src="https://user-images.githubusercontent.com/41008899/193761412-8d8d5b7f-3a65-4c32-8a12-6bd64b45fc79.png" style="width:33%;padding-left:5px;"><a/>
+ <a href="https://kohuro.itch.io/"><img src="https://static.itch.io/images/badge.svg" style="width:33%;padding-left:5px;"><a/>
+</div>
