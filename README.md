@@ -17,20 +17,6 @@
 - [Geckolot](https://mathieu-coutant.itch.io/geckolot) | Global Game Jam 2022 | **Lead graphic designer & developer**
 - [Neon Dice](https://flegmatik-surf.itch.io/neon-dice) | GTMK Game Jam 2022 | **Lead graphic designer**
 
----
-
-# **Some of my work**
-
-<br/>
-
-### **The conclusion to a three-piece work as a tribute to the game [Othercide](https://store.steampowered.com/app/798490/Othercide/)**
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/41008899/153001891-8f25ea75-5064-4e42-8d0a-a68eb1f20d07.gif" alt="drawing"/>
-
----
-
 # **My video game projects**
 
 <br/>
@@ -97,7 +83,33 @@ Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-S
 
 --- 
 
+# **I also do some dope Pixel Art ! - Here is some of my work**
 
+<br/>
+
+### **The conclusion to a three-piece work as a tribute to the game [Othercide](https://store.steampowered.com/app/798490/Othercide/)**
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/41008899/153001891-8f25ea75-5064-4e42-8d0a-a68eb1f20d07.gif" alt="drawing"/>
+
+<br/>
+
+### **An attempt at *sub-pixel animation*** 
+
+<br/>
+
+![lucario](https://user-images.githubusercontent.com/41008899/193759328-2726432d-dc33-43d1-8511-0932a414efd4.gif)
+
+<br/>
+
+ ### **Some character designing**
+
+<br/>
+
+![Grey](https://user-images.githubusercontent.com/41008899/193759600-35e97ce7-7466-4a56-97b8-c07234dc3846.png)
+
+---
 
 ### **Find me here**
 
