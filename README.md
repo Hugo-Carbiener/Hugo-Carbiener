@@ -95,7 +95,7 @@ Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-S
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/41008899/153001891-8f25ea75-5064-4e42-8d0a-a68eb1f20d07.gif" alt="drawing"/>
+<img src="https://user-images.githubusercontent.com/41008899/153001891-8f25ea75-5064-4e42-8d0a-a68eb1f20d07.gif" width="50%" height="50%">
 
 <br/>
 
@@ -103,7 +103,7 @@ Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-S
 
 <br/>
 
-![lucario](https://user-images.githubusercontent.com/41008899/193759328-2726432d-dc33-43d1-8511-0932a414efd4.gif)
+<img src="https://user-images.githubusercontent.com/41008899/193759328-2726432d-dc33-43d1-8511-0932a414efd4.gif" width="50%" height="50%">
 
 <br/>
 
@@ -111,8 +111,7 @@ Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-S
 
 <br/>
 
-![Grey](https://user-images.githubusercontent.com/41008899/193759600-35e97ce7-7466-4a56-97b8-c07234dc3846.png)
-
+<img src="https://user-images.githubusercontent.com/41008899/193759600-35e97ce7-7466-4a56-97b8-c07234dc3846.png" width="50%" height="50%">
 ---
 
 ### **Find me here**
