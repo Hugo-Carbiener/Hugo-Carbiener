@@ -1,3 +1,6 @@
+
+![banner-animated](https://user-images.githubusercontent.com/41008899/194069763-4cd89979-7ae3-403a-96f0-e99c8c714215.png)
+
 ### Hi there 👋
 
 :wrench: - I'm Hugo, an **engineering student at [Telecom Sudparis](https://www.telecom-sudparis.eu)**. There I get to learn about many aspects of telecommunications along with programming languages such as Bash, Java, C#, PHP and so on. But truth be told, I am here to learn about video game making. 
