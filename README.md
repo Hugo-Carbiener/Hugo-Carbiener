@@ -6,9 +6,6 @@
 :wrench: - I'm Hugo, an **engineering student at [Telecom Sudparis](https://www.telecom-sudparis.eu), in game dev specialisation**. There I get to learn about many aspects of telecommunications along with programming languages such as Bash, Java, C#, PHP and so on. But truth be told, I am here to learn about video game making. 
 
 ---
-
-<br/>
-
 #### What I do
 
 :alarm_clock: - I absolutely love taking part in **Game Jams**. The objective is to form a team and develop a video game from scratch in 48 hours. Have a look at the games I took part in the making:
