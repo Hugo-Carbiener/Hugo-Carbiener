@@ -3,7 +3,7 @@
 
 ### Hi there 👋
 
-:wrench: - I'm Hugo, an **engineering student at [Telecom Sudparis](https://www.telecom-sudparis.eu)**. There I get to learn about many aspects of telecommunications along with programming languages such as Bash, Java, C#, PHP and so on. But truth be told, I am here to learn about video game making. 
+:wrench: - I'm Hugo, an **engineering student at [Telecom Sudparis](https://www.telecom-sudparis.eu), in game dev specialisation**. There I get to learn about many aspects of telecommunications along with programming languages such as Bash, Java, C#, PHP and so on. But truth be told, I am here to learn about video game making. 
 
 ---
 
@@ -11,14 +11,14 @@
 
 #### What I do
 
-:video_game: - Passionned about video games, [check it out](https://ggapp.io/Kohuro/collection)!
-
-:pencil2: - I also do **Pixel Art** when I have time. I've been part of a lot of awesome video game projects lately, be it as a graphic designer or developper. Come have a look, I post most of my drawings [here](https://www.reddit.com/user/K0huro/posts/).. I'm using [Aseprite](https://www.aseprite.org/) which is a fantastic tool for Pixel Art.
-
 :alarm_clock: - I absolutely love taking part in **Game Jams**. The objective is to form a team and develop a video game from scratch in 48 hours. Have a look at the games I took part in the making:
 - [Sort'it 'till you make it](https://skizaat.itch.io/sortit-till-you-make-it) | Unijam 2021 | **Lead developer**
 - [Geckolot](https://mathieu-coutant.itch.io/geckolot) | Global Game Jam 2022 | **Lead graphic designer & developer**
 - [Neon Dice](https://flegmatik-surf.itch.io/neon-dice) | GTMK Game Jam 2022 | **Lead graphic designer**
+
+:pencil2: - I also do **Pixel Art** when I have time. I've been part of a lot of awesome video game projects lately, be it as a graphic designer or developper. Come have a look, I post most of my drawings [here](https://www.reddit.com/user/K0huro/posts/).. I'm using [Aseprite](https://www.aseprite.org/) which is a fantastic tool for Pixel Art.
+
+:video_game: - Passionned about video games, [check it out](https://ggapp.io/Kohuro/collection)!
 
 # **My video game projects**
 
@@ -28,7 +28,7 @@
 
 <br/>
 
-![start](https://user-images.githubusercontent.com/41008899/193330976-6a4008de-39e4-4b4e-b760-c111f5825708.png)
+<img src="https://user-images.githubusercontent.com/41008899/193330976-6a4008de-39e4-4b4e-b760-c111f5825708.png" width="50%" height="50%">
 
 **Dungeon Speaker** is a *text-based* dungeon crawler inspired from [AI Dungeon](https://play.aidungeon.io/). We worked on it as a team of four junior students at Telecom Sudparis for our **oriented object programming** class. Sadly, being our first game, the build was somewhat messy and is not playable anymore. 
 
@@ -38,7 +38,8 @@
 
 <br/>
 
-![imgitch](https://img.itch.zone/aW1hZ2UvMTI3NjU4Ny83NDM4NjQyLmpwZw==/original/qgxAdK.jpg)
+<img src="https://img.itch.zone/aW1hZ2UvMTI3NjU4Ny83NDM4NjQyLmpwZw==/original/qgxAdK.jpg" width="50%" height="50%">
+
 Sort'it 'till you make it was the game made during my first Game Jam, the 2021 **Unijam**. The aim is to sort trash properly while putting aside some items to sell them of the black market for extra cash. Still, you must not get caught by your boss while stealing trash.   
 
 While the scope was very optimistic, we still managed to produce a playable game. It lacks polish but taught us to define a clear and concise scope when starting a Jam.
@@ -51,7 +52,8 @@ Play the game on [Itchi.io](https://skizaat.itch.io/sortit-till-you-make-it).
 
 <br/>
 
-![Coveritch](https://user-images.githubusercontent.com/41008899/153009120-aeb54a6e-a5ba-48bc-9e63-17574a7d7fa1.png)
+<img src="https://user-images.githubusercontent.com/41008899/153009120-aeb54a6e-a5ba-48bc-9e63-17574a7d7fa1.png" width="50%" height="50%">
+
 Geckolot is a two-player plateformer inspired by the theme **Duality** for the 2022 Global Game Jam. You can either control an extroverted axolotl with attraction powers or an introverted gecko that tends to push others away. 
 
 Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check out our project in more details [here](https://github.com/Hugo-Carbiener/Geckolot)!
@@ -64,7 +66,8 @@ Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check o
 
 <br/>
 
-![Mockup](https://user-images.githubusercontent.com/41008899/188655584-762db231-84c5-4257-bd18-8f34a10e9bef.gif)
+<img src="https://user-images.githubusercontent.com/41008899/188655584-762db231-84c5-4257-bd18-8f34a10e9bef.gif" width="50%" height="50%">
+
 Neon Dice is a two player **hack n' slash** inspired by the theme **Roll of the Dice** for the 2022 GMTK Game Jam. Each player controls one of the two dices. Each face of your dice corresponds to a particular weapon with a fixed amount of ammunition. If you run out of ammo, you will have to regroup with your teammate so they can roll you. But beware, if you get rolled, your weapon will most likely change as well, so be prepared!   
 
 Despite a few issues during the developpement, the game turned out accordingly to our expectations and I am particularly proud of the art and of the workflow I managed to achieve. 
@@ -77,7 +80,7 @@ Play the game on [Itchi.io](https://flegmatik-surf.itch.io/neon-dice).
 
 <br/>
 
-![screenb](https://user-images.githubusercontent.com/41008899/188661302-7964cf80-6fd9-4c19-91b1-cd6c5ce0ec22.png)
+<img src="https://user-images.githubusercontent.com/41008899/188661302-7964cf80-6fd9-4c19-91b1-cd6c5ce0ec22.png" width="50%" height="50%">
 
 Adventures under the sea was a **school project** made to learn the basics of c++. This project was a co-realised with [Henri Nomico](https://github.com/BiscuitPrime). This game is heavily inspired by [Into the Breach](https://store.steampowered.com/app/590380/Into_the_Breach/) and uses librairies such as SFML and ImGUI. All the sprites are handmade. 
 
