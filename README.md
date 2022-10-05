@@ -17,6 +17,12 @@
 
 :video_game: - Passionned about video games, [check it out](https://ggapp.io/Kohuro/collection)!
 
+# **My professionnal experience**
+
+<br/>
+
+The team working on [Mockoon](https://mockoon.com/) has been so kind as to welcome me **twice** for an internship during the Summers of 2021 and 2022. **Mockoon** is an open sourced dev tool that helps you design and mock APIs in seconds. There, I got to work on the project and add my little contribution to the application while getting a hang of Javascript, Typescript, Angular, NodeJS and so on. 
+
 # **My video game projects**
 
 <br/>
