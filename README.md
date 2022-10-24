@@ -90,6 +90,23 @@ Adventures under the sea was a **school project** made to learn the basics of c+
 I am particularily proud to have managed to implement a system to display isometric tilemaps quickly and easily.
 Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-Sea).
 
+<br/>
+
+### **Steppe by step, our Archeologic Game Jam project**
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/41008899/194828151-81457301-b07a-49a2-ae49-9b22ab2412d9.png" width="50%" height="50%">
+
+Steppe by step is a single player game where you control a tribe of hunter gatherers through the prehistorical steppe in search of traces that could lead you towards the herd of reindeer roaming this place. This game was made during the Archeological Game Jam that took place in the C19 incubator in Evry, France in partnership with the excavation site of Etiolles, France. 
+
+I took part in this Jam as **developer** this time. As expected, the weekend was not exactly smooth sailing and we encoutered many hurdles from trying to work with [FMOD](https://www.fmod.com/) to using data issued by the archeologists to add realistic details.
+
+During the Game Jam, I got to meet and befriend two amazing sound designers and an archeologist. This was a truly rich human experience! 
+
+Play the game on [Itch.io](https://akasuna.itch.io/steppe-by-step)!
+Check out the game [here](https://github.com/Hugo-Carbiener/Steppe-by-step).
+
 --- 
 
 # **I also do some Pixel Art ! - Here is some of my [work](https://www.reddit.com/user/K0huro)**
