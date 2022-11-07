@@ -18,7 +18,7 @@
 
 :video_game: - Passionned about video games, [check it out](https://ggapp.io/Kohuro/collection)!
 
-# **My professionnal experience**
+# **My professional experience**
 
 <br/>
 
