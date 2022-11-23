@@ -9,10 +9,11 @@
 #### What I do
 
 :alarm_clock: - I absolutely love taking part in **Game Jams**. The objective is to form a team and develop a video game from scratch in 48 hours. Have a look at the games I took part in the making:
-- [Sort'it 'till you make it](https://skizaat.itch.io/sortit-till-you-make-it) | Unijam 2021 | **Lead developer**
+- [Lost in the Depths](https://skizaat.itch.io/lost-depths) | Unijam 2022 | **Developer** 
+- [Steppe by Steppe](https://akasuna.itch.io/steppe-by-step) | Archeological Game Jam - Etiolles 2022 | **Developer**
 - [Geckolot](https://mathieu-coutant.itch.io/geckolot) | Global Game Jam 2022 | **Lead graphic designer & developer**
 - [Neon Dice](https://flegmatik-surf.itch.io/neon-dice) | GTMK Game Jam 2022 | **Lead graphic designer**
-- [Steppe by Steppe](https://akasuna.itch.io/steppe-by-step) | Archeological Game Jam - Etiolles 2022 | **Developer**
+- [Sort'it 'till you make it](https://skizaat.itch.io/sortit-till-you-make-it) | Unijam 2021 | **Developer**
 
 :pencil2: - I also do **Pixel Art** when I have time. I've been part of a lot of awesome video game projects lately, be it as a graphic designer or developper. Come have a look, I post most of my drawings [here](https://www.reddit.com/user/K0huro/posts/).. I'm using [Aseprite](https://www.aseprite.org/) which is a fantastic tool for Pixel Art.
 
@@ -107,6 +108,33 @@ During the Game Jam, I got to meet and befriend two amazing sound designers and 
 
 Play the game on [Itch.io](https://akasuna.itch.io/steppe-by-step)!
 Check out the game [here](https://github.com/Hugo-Carbiener/Steppe-by-step).
+
+### **Lost in the Depths, our Unijam 2022 project**
+
+<br/>
+
+<img src="https://img.itch.zone/aW1hZ2UvMTc5ODcxMi8xMDU3NTEwMC5wbmc=/original/Jlx9dP.png" width="50%" height="50%">
+
+Lost in the Depths is single player game where your objective is to dig deep into the ground of an unknown planet to find its gem. You will have to dwell in the depths of a **procedurally generated** map, discover its biomes and collects tons of differents ores. As you dig your way down, oxygen will soon become an issue and you will have to plan accordingly. To do so, you can go back to your base and put your ores to use to upgrade your gear and craft oxygen relays.
+
+This project won the **jury price of the Unijam** and team members received rewards from **Ubisoft Annecy**, one of the sponsors of the event.
+
+
+I took part in this jam as **developer**, and I essentially developped the procedural generation of the map. In a way, our game takes from **Terraria** as you evolve in a 2D world and do things such as mining and crafting. But it also takes from 3D cubic/voxel games such as Minecraft as our 2D world is really a flat 3D scene. 
+
+**Development insights**
+
+It has been an absolute blast to work on the procedural generation! Seeing our flat map gradually be filled with details: biome variations depending on the depth, unbreakable limits, ore generation, ore generation as veins, ore blending depending of the biome etc.
+
+<img width="628" alt="Capture d’écran 2022-11-23 174751" src="https://user-images.githubusercontent.com/41008899/203604819-808d4f66-c131-43e3-9a23-8c7a22cbff46.png">
+
+As you can see, the map is divided vertically into biomes. All three types of ore can be found in pretty much any biomes. Yet, their apparition rate follows a gaussian probability centered in the average height of the biome. There is also a script that group the ores together as veins with variable sizes.
+
+We discussed adding caves and thought that if not done properly, caves would pretty much look like generation errors. Yet, when we added the elevator, it appeared that having a small cavity at the bottom of the elevator shaft would offer the player some space. As such, I implemented a method to dig out cavities based on several properties.
+
+<img width="624" alt="Capture d’écran 2022-11-23 180129" src="https://user-images.githubusercontent.com/41008899/203606153-060a9e4e-421e-4d89-952e-bfc0c0d6ef84.png">
+
+
 
 --- 
 
