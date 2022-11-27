@@ -27,59 +27,34 @@ The team working on [Mockoon](https://mockoon.com/) has been so kind as to welco
 
 # **My video game projects**
 
-<br/>
-
-### **Dungeon Speaker, an academic dev project**
+### **Lost in the Depths, our Unijam 2022 project**
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/41008899/193330976-6a4008de-39e4-4b4e-b760-c111f5825708.png" width="50%" height="50%">
+<img src="https://img.itch.zone/aW1hZ2UvMTc5ODcxMi8xMDU3NTEwMC5wbmc=/original/Jlx9dP.png" width="50%" height="50%">
 
-**Dungeon Speaker** is a *text-based* dungeon crawler inspired from [AI Dungeon](https://play.aidungeon.io/). We worked on it as a team of four junior students at Telecom Sudparis for our **oriented object programming** class. Sadly, being our first game, the build was somewhat messy and is not playable anymore. 
+Lost in the Depths is single player game where your objective is to dig deep into the ground of an unknown planet to find its gem. You will have to dwell in the depths of a **procedurally generated** map, discover its biomes and collects tons of differents ores. As you dig your way down, oxygen will soon become an issue and you will have to plan accordingly. To do so, you can go back to your base and put your ores to use to upgrade your gear and craft oxygen relays.
 
-<br/>
+This project won the **jury price of the Unijam** and team members received rewards from **Ubisoft Annecy**, one of the sponsors of the event.
 
-### **Sort'it 'till you make it, our 2021 Unijam project**
+I took part in this jam as **developer**, and I essentially developped the procedural generation of the map. In a way, our game takes from **Terraria** as you evolve in a 2D world and do things such as mining and crafting. But it also takes from 3D cubic/voxel games such as Minecraft as our 2D world is really a flat 3D scene. 
 
-<br/>
+**Development insights**
 
-<img src="https://img.itch.zone/aW1hZ2UvMTI3NjU4Ny83NDM4NjQyLmpwZw==/original/qgxAdK.jpg" width="50%" height="50%">
+It has been an absolute blast to work on the procedural generation! Seeing our flat map gradually be filled with details: biome variations depending on the depth, unbreakable limits, ore generation, ore generation as veins, ore blending depending of the biome etc.
 
-Sort'it 'till you make it was the game made during my first Game Jam, the 2021 **Unijam**. The aim is to sort trash properly while putting aside some items to sell them of the black market for extra cash. Still, you must not get caught by your boss while stealing trash.   
+<img width="628" alt="Capture d’écran 2022-11-23 174751" src="https://user-images.githubusercontent.com/41008899/203604819-808d4f66-c131-43e3-9a23-8c7a22cbff46.png">
 
-While the scope was very optimistic, we still managed to produce a playable game. It lacks polish but taught us to define a clear and concise scope when starting a Jam.
+As you can see, the map is divided vertically into biomes. All three types of ore can be found in pretty much any biomes. Yet, their apparition rate follows a gaussian probability centered in the average height of the biome. There is also a script that group the ores together as veins with variable sizes.
 
-Play the game on [Itchi.io](https://skizaat.itch.io/sortit-till-you-make-it).
+We discussed adding caves and thought that if not done properly, caves would pretty much look like generation errors. Yet, when we added the elevator, it appeared that having a small cavity at the bottom of the elevator shaft would offer the player some space. As such, I implemented a method to dig out cavities based on several properties.
 
-<br/>
+<img width="624" alt="Capture d’écran 2022-11-23 180129" src="https://user-images.githubusercontent.com/41008899/203606153-060a9e4e-421e-4d89-952e-bfc0c0d6ef84.png">
 
-### **Geckolot, our 2022 Global Game Jam project**
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/41008899/153009120-aeb54a6e-a5ba-48bc-9e63-17574a7d7fa1.png" width="50%" height="50%">
-
-Geckolot is a two-player plateformer inspired by the theme **Duality** for the 2022 Global Game Jam. You can either control an extroverted axolotl with attraction powers or an introverted gecko that tends to push others away. 
-
-Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check out our project in more details [here](https://github.com/Hugo-Carbiener/Geckolot)!
-
-(No but really... go check it out... it's really cool! :eyes:)
-
-<br/>
-
-### **Neon Dice, our 2022 GMTK Game Jam project**
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/41008899/188655584-762db231-84c5-4257-bd18-8f34a10e9bef.gif" width="50%" height="50%">
-
-Neon Dice is a two player **hack n' slash** inspired by the theme **Roll of the Dice** for the 2022 GMTK Game Jam. Each player controls one of the two dices. Each face of your dice corresponds to a particular weapon with a fixed amount of ammunition. If you run out of ammo, you will have to regroup with your teammate so they can roll you. But beware, if you get rolled, your weapon will most likely change as well, so be prepared!   
-
-Despite a few issues during the developpement, the game turned out accordingly to our expectations and I am particularly proud of the art and of the workflow I managed to achieve. 
-
-Play the game on [Itchi.io](https://flegmatik-surf.itch.io/neon-dice).
-
-<br/>
+**Technologies used:** Unity/C#, Git
+**Team size:** 7
+**Project duration:** 48h
+**Tasks:** Procedurally generated 3D map with biomes, ore veins and caves, 3D assets integration, Shaders ... 
 
 ### **Adventures under the sea, a school project in C++**
 
@@ -89,8 +64,20 @@ Play the game on [Itchi.io](https://flegmatik-surf.itch.io/neon-dice).
 
 Adventures under the sea was a **school project** made to learn the basics of c++. This project was a co-realised with [Henri Nomico](https://github.com/BiscuitPrime). This game is heavily inspired by [Into the Breach](https://store.steampowered.com/app/590380/Into_the_Breach/) and uses librairies such as SFML and ImGUI. All the sprites are handmade. 
 
-I am particularily proud to have managed to implement a system to display isometric tilemaps quickly and easily.
+Early in the project, I chose to go with an isometric pixel art style for our game. We tried using TMX to load our tilemap but it did not support isometric tilemaps. As such, I had to develop **a homemade system to convert orthographic to isometric coordinates** consistently. After a few hours of headhake, going through all the documentation available on the matter, I managed to get a convincing formula ! 
+
+<img src="https://clintbellanger.net/articles/isometric_math/images/screen_coordinates.png" width="50%" height="50%">
+
+It worked particularly well and even left me some time to work on a **xml serialization our the tilemaps for our levels**. In the end, all you had to do was write a short xml stating which coordinates had to be drawn with which type of tile, add some tags for enemies and the level was automatically generated !  
+
+I also worked my way out of my comfort zone and experimented with the **Strategy design pattern**. It wasn't obvious to implement at first, but after reading some articles on the subject it became more instinctive. Now our ennemies exhibit different behavior depending on the state of the game. We did not have time to implement more than the basic strategies (fleeing, rushing to attack the player and so on.) but the system was designed to take into account as many possible strategies as we wanted. 
+
 Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-Sea).
+
+**Technologies used:** C++ (yep, no game engine this time! 😎), Git 
+**Team size:** 2
+**Project duration:** 2 weeks
+**Tasks:** Isometric tilemap generation, strategy design pattern for enemy behavior,pixel art assets production and integration,
 
 <br/>
 
@@ -109,32 +96,59 @@ During the Game Jam, I got to meet and befriend two amazing sound designers and 
 Play the game on [Itch.io](https://akasuna.itch.io/steppe-by-step)!
 Check out the game [here](https://github.com/Hugo-Carbiener/Steppe-by-step).
 
-### **Lost in the Depths, our Unijam 2022 project**
+<br/>
+
+### **Geckolot, our 2022 Global Game Jam project**
 
 <br/>
 
-<img src="https://img.itch.zone/aW1hZ2UvMTc5ODcxMi8xMDU3NTEwMC5wbmc=/original/Jlx9dP.png" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/41008899/153009120-aeb54a6e-a5ba-48bc-9e63-17574a7d7fa1.png" width="50%" height="50%">
 
-Lost in the Depths is single player game where your objective is to dig deep into the ground of an unknown planet to find its gem. You will have to dwell in the depths of a **procedurally generated** map, discover its biomes and collects tons of differents ores. As you dig your way down, oxygen will soon become an issue and you will have to plan accordingly. To do so, you can go back to your base and put your ores to use to upgrade your gear and craft oxygen relays.
+Geckolot is a two-player plateformer inspired by the theme **Duality** for the 2022 Global Game Jam. You can either control an extroverted axolotl with attraction powers or an introverted gecko that tends to push others away. 
 
-This project won the **jury price of the Unijam** and team members received rewards from **Ubisoft Annecy**, one of the sponsors of the event.
+Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check out our project in more details [here](https://github.com/Hugo-Carbiener/Geckolot)!
 
+(No but really... go check it out... it's really cool! :eyes:)
 
-I took part in this jam as **developer**, and I essentially developped the procedural generation of the map. In a way, our game takes from **Terraria** as you evolve in a 2D world and do things such as mining and crafting. But it also takes from 3D cubic/voxel games such as Minecraft as our 2D world is really a flat 3D scene. 
+<br/>
 
-**Development insights**
+### **Dungeon Speaker, an academic dev project**
 
-It has been an absolute blast to work on the procedural generation! Seeing our flat map gradually be filled with details: biome variations depending on the depth, unbreakable limits, ore generation, ore generation as veins, ore blending depending of the biome etc.
+<br/>
 
-<img width="628" alt="Capture d’écran 2022-11-23 174751" src="https://user-images.githubusercontent.com/41008899/203604819-808d4f66-c131-43e3-9a23-8c7a22cbff46.png">
+<img src="https://user-images.githubusercontent.com/41008899/193330976-6a4008de-39e4-4b4e-b760-c111f5825708.png" width="50%" height="50%">
 
-As you can see, the map is divided vertically into biomes. All three types of ore can be found in pretty much any biomes. Yet, their apparition rate follows a gaussian probability centered in the average height of the biome. There is also a script that group the ores together as veins with variable sizes.
+**Dungeon Speaker** is a *text-based* dungeon crawler inspired from [AI Dungeon](https://play.aidungeon.io/). We worked on it as a team of four junior students at Telecom Sudparis for our **oriented object programming** class. Sadly, being our first game, the build was somewhat messy and is not playable anymore. 
 
-We discussed adding caves and thought that if not done properly, caves would pretty much look like generation errors. Yet, when we added the elevator, it appeared that having a small cavity at the bottom of the elevator shaft would offer the player some space. As such, I implemented a method to dig out cavities based on several properties.
+<br/>
 
-<img width="624" alt="Capture d’écran 2022-11-23 180129" src="https://user-images.githubusercontent.com/41008899/203606153-060a9e4e-421e-4d89-952e-bfc0c0d6ef84.png">
+### **Neon Dice, our 2022 GMTK Game Jam project**
 
+<br/>
 
+<img src="https://user-images.githubusercontent.com/41008899/188655584-762db231-84c5-4257-bd18-8f34a10e9bef.gif" width="50%" height="50%">
+
+Neon Dice is a two player **hack n' slash** inspired by the theme **Roll of the Dice** for the 2022 GMTK Game Jam. Each player controls one of the two dices. Each face of your dice corresponds to a particular weapon with a fixed amount of ammunition. If you run out of ammo, you will have to regroup with your teammate so they can roll you. But beware, if you get rolled, your weapon will most likely change as well, so be prepared!   
+
+Despite a few issues during the developpement, the game turned out accordingly to our expectations and I am particularly proud of the art and of the workflow I managed to achieve. 
+
+Play the game on [Itchi.io](https://flegmatik-surf.itch.io/neon-dice).
+
+<br/>
+
+### **Sort'it 'till you make it, our 2021 Unijam project**
+
+<br/>
+
+<img src="https://img.itch.zone/aW1hZ2UvMTI3NjU4Ny83NDM4NjQyLmpwZw==/original/qgxAdK.jpg" width="50%" height="50%">
+
+Sort'it 'till you make it was the game made during my first Game Jam, the 2021 **Unijam**. The aim is to sort trash properly while putting aside some items to sell them of the black market for extra cash. Still, you must not get caught by your boss while stealing trash.   
+
+While the scope was very optimistic, we still managed to produce a playable game. It lacks polish but taught us to define a clear and concise scope when starting a Jam.
+
+Play the game on [Itchi.io](https://skizaat.itch.io/sortit-till-you-make-it).
+
+<br/>
 
 --- 
 
