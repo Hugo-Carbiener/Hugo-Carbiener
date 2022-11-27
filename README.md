@@ -51,10 +51,10 @@ We discussed adding caves and thought that if not done properly, caves would pre
 
 <img width="624" alt="Capture d’écran 2022-11-23 180129" src="https://user-images.githubusercontent.com/41008899/203606153-060a9e4e-421e-4d89-952e-bfc0c0d6ef84.png">
 
-**Technologies used:** Unity/C#, Git
-**Team size:** 7
-**Project duration:** 48h
-**Tasks:** Procedurally generated 3D map with biomes, ore veins and caves, 3D assets integration, Shaders ... 
+**Technologies used:** Unity/C#, Git  
+**Team size:** 7  
+**Project duration:** 48h    
+**Tasks:** Procedurally generated 3D map with biomes, ore veins and caves, 3D assets integration, Shaders ...   
 
 ### **Adventures under the sea, a school project in C++**
 
@@ -74,10 +74,10 @@ I also worked my way out of my comfort zone and experimented with the **Strategy
 
 Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-Sea).
 
-**Technologies used:** C++ (yep, no game engine this time! 😎), Git 
-**Team size:** 2
-**Project duration:** 2 weeks
-**Tasks:** Isometric tilemap generation, strategy design pattern for enemy behavior,pixel art assets production and integration,
+**Technologies used:** C++ (yep, no game engine this time! 😎), Git   
+**Team size:** 2  
+**Project duration:** 2 weeks    
+**Tasks:** Isometric tilemap generation, strategy design pattern for enemy behavior,pixel art assets production and integration  
 
 <br/>
 
@@ -89,12 +89,19 @@ Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-S
 
 Steppe by step is a single player game where you control a tribe of hunter gatherers through the prehistorical steppe in search of traces that could lead you towards the herd of reindeer roaming this place. This game was made during the Archeological Game Jam that took place in the C19 incubator in Evry, France in partnership with the excavation site of Etiolles, France. 
 
-I took part in this Jam as **developer** this time. As expected, the weekend was not exactly smooth sailing and we encoutered many hurdles from trying to work with [FMOD](https://www.fmod.com/) to using data issued by the archeologists to add realistic details.
+I took part in this Jam as **developer** this time. As expected, the weekend was not exactly smooth sailing and we encoutered many hurdles from trying to work with [FMOD](https://www.fmod.com/) to using data issued by the archeologists to add realistic details. FMOD has been an absolute nightmare integrate to our project and brought the dreaded git issues. I swear, sometimes, it feels like git has been built on a cursed graveyard. However, FMOD turned out to be an impressive tool! It allowed our sound designers to produce adaptative sounds and music, and, on our end, to integrate them very intuitively. 
+
+This Game Jam was also the opportunity for me to get ahold of the basics of pathfinding. I was in charge of making our characters move in a 3D world generated using real topographic data. I would have loved to have more time to polish my system but it clearly did the job! 
 
 During the Game Jam, I got to meet and befriend two amazing sound designers and an archeologist. This was a truly rich human experience! 
 
 Play the game on [Itch.io](https://akasuna.itch.io/steppe-by-step)!
 Check out the game [here](https://github.com/Hugo-Carbiener/Steppe-by-step).
+
+**Technologies used:** Unity/C#, FMOD, Git     
+**Team size:** 6  
+**Project duration:** 48h  
+**Tasks:** Pathfinding, FMOD and sound integration, 3D asset integration, mathematics and geometry in a 3D space  
 
 <br/>
 
@@ -106,9 +113,16 @@ Check out the game [here](https://github.com/Hugo-Carbiener/Steppe-by-step).
 
 Geckolot is a two-player plateformer inspired by the theme **Duality** for the 2022 Global Game Jam. You can either control an extroverted axolotl with attraction powers or an introverted gecko that tends to push others away. 
 
+As lead graphist, I produced most of the pixel art assets you can see (including the logo I am so proud of 😝). But while that was nice and rewarding, I also got the opportunity to intoduce a friend, in junior year, to pixel art. she loved it and I was able to assist her with some old examples work and pieces of advice. In the end she produced amazing assets that made our game even better-looking!
+
 Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check out our project in more details [here](https://github.com/Hugo-Carbiener/Geckolot)!
 
 (No but really... go check it out... it's really cool! :eyes:)
+
+**Technologies used:** C#/Unity, Aseprite, Git     
+**Team size:** 7   
+**Project duration:** 48h    
+**Tasks:** 2D asset production and integration, project management in the graphist team     
 
 <br/>
 
@@ -119,6 +133,15 @@ Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check o
 <img src="https://user-images.githubusercontent.com/41008899/193330976-6a4008de-39e4-4b4e-b760-c111f5825708.png" width="50%" height="50%">
 
 **Dungeon Speaker** is a *text-based* dungeon crawler inspired from [AI Dungeon](https://play.aidungeon.io/). We worked on it as a team of four junior students at Telecom Sudparis for our **oriented object programming** class. Sadly, being our first game, the build was somewhat messy and is not playable anymore. 
+
+the first thing I implemented was the dungeon generation system. Without really knowing it, I coded a procedural generation algorithm to generate our dungeon. It took the form of a non-binary tree where each room could lead to other rooms and so on. Room were also procedurally seasonned with monsters, loot and random events with which the player could interact. The achievement I was the most proud of was the map display system. As mentionned, the game was text-based, so, in text, I managed to display the procedurally generated tree of rooms and corridors.
+
+Our game also relied on **Natural Language Processing** (NLP), to processing the sentence the player would write and translate them into actions to influence the world. We struggled a lot to get any results at first, but by slowly working our way up, dividing our task, we managed to get more and more bricks done. In the end, we had a convincing system that processed the player sentences, isolated the verbs and objects and could accurately starting the corresponding gameplay sequences.
+
+**Technologies used:** Java, Python, Git  
+**Team size:** 4  
+**Project duration:** 4 months  
+**Tasks:** Natural Language Processing, Dungeon, monster and weapon procedural generation  
 
 <br/>
 
@@ -132,7 +155,14 @@ Neon Dice is a two player **hack n' slash** inspired by the theme **Roll of the 
 
 Despite a few issues during the developpement, the game turned out accordingly to our expectations and I am particularly proud of the art and of the workflow I managed to achieve. 
 
+It is fantastic to discover new tools that drastically enhance your **workflow**. Well that is a particularly good example. I am using **Aseprite** to draw my pixel-art assets and amongst many fantastic tools, aseprite offers a **scripting API**. Browsing itch.io, I found a script which, for a few dollars, would allow me to export parts of my drawing in a single click (and as a spritesheet if I was drawing animations)! No more need to single out every asset and its variations in a seperate file and then export it, now this whole process is instant. Even better, Unity keeps reference of your sprite and the modifications applied and links it to the sprite file. So as long as your export with the same name as previously, all the modifications will be instanly applied and all the objects and prefabs will have the new sprite. What does all this paragraph means? I can redraw some assets, make some slight modifications, anything ... and in a single click, all my sprite are updated and remain in the right place in Unity, I am super proud of my pipeline. 
+
 Play the game on [Itchi.io](https://flegmatik-surf.itch.io/neon-dice).
+
+**Technologies used:** C#/Unity, Aseprite, Git     
+**Team size:** 7   
+**Project duration:** 48h    
+**Tasks:** 2D asset production and integration  
 
 <br/>
 
@@ -144,9 +174,16 @@ Play the game on [Itchi.io](https://flegmatik-surf.itch.io/neon-dice).
 
 Sort'it 'till you make it was the game made during my first Game Jam, the 2021 **Unijam**. The aim is to sort trash properly while putting aside some items to sell them of the black market for extra cash. Still, you must not get caught by your boss while stealing trash.   
 
+The first thing I implemented was a 3D drag and drop system. It was real math-heavy and toop me a little while, but the result was satisfying and held the base of our whole game.
+
 While the scope was very optimistic, we still managed to produce a playable game. It lacks polish but taught us to define a clear and concise scope when starting a Jam.
 
 Play the game on [Itchi.io](https://skizaat.itch.io/sortit-till-you-make-it).
+
+**Technologies used:** C#/Unity, Blender, Git   
+**Team size:** 6   
+**Project duration:** 48h      
+**Tasks:** 3 Drag and drop system, 3D physics, Camera management 
 
 <br/>
 
