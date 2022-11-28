@@ -27,6 +27,33 @@ The team working on [Mockoon](https://mockoon.com/) has been so kind as to welco
 
 # **My video game projects**
 
+### **Top Secret File, our WIP**
+
+![clip (6) (1)](https://user-images.githubusercontent.com/41008899/204225375-31dedd04-91ac-44fc-a277-ca30a1d3a0db.gif)
+
+Top secret file is a game in the making for the sake of our end of the year's project. You are a Jovian investigator, sent to an infamous Megapolis on Triton. You are sent there to stop an ex-military who has been abusing his reality-altering powers. Use your own powers to see through the lies of the city and fulfill your mission. You powers allow you to bend reality at your will, by modifying game files in your file explorer.
+
+The objective of this academic project is to **showcase the technical capabilities** mastered during our formation in the **Video Games and Digital Interaction** Master. In this project, I take the role of technical artist/art director and developer: I am in charge of production and integration of our 2D pixel art assets and get to take the decisions regarding the art choices. In parallel, we also aim at sharing the developpement tasks equally and, as such, I have also taken some technical tasks such as Tilemap-driven movement, 2D Collision mechanics and so on. 
+
+> **Half-project Update - November 2022**
+
+At this point, we managed to set up the base gameplay for our game. As of now, the player can wander around in our world, interact with his environment and modify/delete/create files in his file explorer to modify his surroundings. 
+
+I started the project by working on the player movement. I wanted the player to remain aligned with the tilemap to mimic the feeling of 2D pokemon games. I thought it would be set and done in a few hours but it actually took some thinking: I wanted the player to be able to input a direction, then another and, when releasing the second direction, resume going in the first direction. That forced me to introduce a pile system in which I would store inputs in a chronological order and retrieve which key was released to remove the corresponding input. In a way, I guess that doesn't make it a real pile as I can remove any item I want regardless of its position. Does that exists? Most likely. It is maybe called a FIMOASP Pile.... FIMOASP standing for **First in, Maybe out at some point** obviously.
+
+In the mean time, I achieved to draw the assets for the office, our starting scene. I tinkered a bit with post processing and dynamic 2D lighting to achieve the office scene. Every piece of furniture is separated and interactable! I have also the first assets for the spatioport but this part isn't completed yet so I will work on it some more beforte posting it. 
+
+![player-movement-front](https://cdn.discordapp.com/attachments/1045427891430752276/1046481469746462740/player.gif)
+![player-movement-front](https://cdn.discordapp.com/attachments/1045427891430752276/1046481469746462740/player.gif)
+![player-movement-front](https://cdn.discordapp.com/attachments/1045427891430752276/1046481469746462740/player.gif)
+
+Right now, I am working on an interesting piece of game design and code: we have struggled a bit on the question of what to when a player deletes a file linked to an important gameObject. We thought that just restoring the files would be frustrating to the player. I suggested to create a scene where all the deleted gameObjects would appear and where the player could wander and interact with items to restore them to there pre-deletion state. Just like the bin in your OS! We called it the Cosmic Bin! I'll share more when it is implemented. 
+
+> **Technologies used:** Unity/C#, Miro, Aseprite, Git  
+>**Team size:** 5  
+>**Project duration:** 6 months    
+>**Tasks:** Tilemap management, 2D collision, file surveying and processing, 
+
 ### **Lost in the Depths, our Unijam 2022 project**
 
 <br/>
