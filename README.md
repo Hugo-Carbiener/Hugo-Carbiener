@@ -210,7 +210,7 @@ Play the game on [Itchi.io](https://skizaat.itch.io/sortit-till-you-make-it).
 **Technologies used:** C#/Unity, Blender, Git   
 **Team size:** 6   
 **Project duration:** 48h      
-**Tasks:** 3 Drag and drop system, 3D physics, Camera management 
+**Tasks:** 3D Drag and drop system, 3D physics, Camera management 
 
 <br/>
 
