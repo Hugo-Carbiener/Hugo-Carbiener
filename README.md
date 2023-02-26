@@ -37,17 +37,50 @@ The objective of this academic project is to **showcase the technical capabiliti
 
 > **Half-project Update - November 2022**
 
->At this point, we managed to set up the base gameplay for our game. As of now, the player can wander around in our world, interact with his environment and >modify/delete/create files in his file explorer to modify his surroundings. 
+At this point, we managed to set up the base gameplay for our game. As of now, the player can wander around in our world, interact with his environment and modify/delete/create files in his file explorer to modify his surroundings. 
 
->I started the project by working on the player movement. I wanted the player to remain aligned with the tilemap to mimic the feeling of 2D pokemon games. I thought >it would be set and done in a few hours but it actually took some thinking: I wanted the player to be able to input a direction, then another and, when releasing >the second direction, resume going in the first direction. That forced me to introduce a pile system in which I would store inputs in a chronological order and >retrieve which key was released to remove the corresponding input. In a way, I guess that doesn't make it a real pile as I can remove any item I want regardless of >its position. Does that exists? Most likely. It is maybe called a FIMOASP Pile.... FIMOASP standing for **First in, Maybe out at some point** obviously.
+I started the project by working on the player movement. I wanted the player to remain aligned with the tilemap to mimic the feeling of 2D pokemon games. I thought it would be set and done in a few hours but it actually took some thinking: I wanted the player to be able to input a direction, then another and, when releasing >the second direction, resume going in the first direction. That forced me to introduce a pile system in which I would store inputs in a chronological order and retrieve which key was released to remove the corresponding input. In a way, I guess that doesn't make it a real pile as I can remove any item I want regardless of its position. Does that exists? Most likely. It is maybe called a FIMOASP Pile.... FIMOASP standing for **First in, Maybe out at some point** obviously.
 
->In the mean time, I achieved to draw the assets for the office, our starting scene. I tinkered a bit with post processing and dynamic 2D lighting to achieve the >office scene. Every piece of furniture is separated and interactable! I have also the first assets for the spatioport but this part isn't completed yet so I will >work on it some more beforte posting it. 
+In the mean time, I achieved to draw the assets for the office, our starting scene. I tinkered a bit with post processing and dynamic 2D lighting to achieve the office scene. Every piece of furniture is separated and interactable! I have also the first assets for the spatioport but this part isn't completed yet so I will work on it some more beforte posting it. 
 
 ![player-movement-front](https://cdn.discordapp.com/attachments/1045427891430752276/1046481469746462740/player.gif)
-![player-movement-front](https://cdn.discordapp.com/attachments/1045427891430752276/1046481469746462740/player.gif)
-![player-movement-front](https://cdn.discordapp.com/attachments/1045427891430752276/1046481469746462740/player.gif)
 
->Right now, I am working on an interesting piece of game design and code: we have struggled a bit on the question of what to when a player deletes a file linked to >an important gameObject. We thought that just restoring the files would be frustrating to the player. I suggested to create a scene where all the deleted >gameObjects would appear and where the player could wander and interact with items to restore them to there pre-deletion state. Just like the bin in your OS! We >called it the Cosmic Bin! I'll share more when it is implemented. 
+Right now, I am working on an interesting piece of game design and code: we have struggled a bit on the question of what to do when a player deletes a file linked to an important gameObject. We thought that just restoring the files would be frustrating to the player. I suggested to create a scene where all the deleted gameObjects would appear and where the player could wander and interact with items to restore them to there pre-deletion state. Just like the bin in your OS! We called it the Cosmic Bin! I'll share more when it is implemented. 
+
+> **Second project Update - January 2023**
+
+The Cosmic Bin is up and running ! I am particularly fond of the aestetics of the scene ! I'll let you judge it by yourself! 
+
+![cosmicbin](https://user-images.githubusercontent.com/41008899/221442823-319c5daf-559b-4ef3-ad22-b6c907a38889.gif)
+
+The ripple effect was realised in shadergraph by adapting a tutorial found online. The main difficulty was to set the player as the epicenter of the ripple but also to find a way for the ripple to flow through the whole viewport and not simultaneously on each tile of the tilemap. 
+
+You may wonder why there is a dog wandering in the unending void. Play the game to find out! 
+
+We are closing in on the end of the project. At this point, our classes are almost over and we will a few weeks to work on the project full-time.
+
+> **End of project Update - February 2023**
+
+After three weeks of intensive full time on the project, the game is playable [here](https://akasuna.itch.io/the-neptune-records)! The whole team is quite exhausted but we are proud of the work behind us. During this last rush, I worked as a full-time artist. Indeed, by the end, the project needed too many assets for me to help my colleagues with the development. There is not much to talk about in this field so I will let a few screenshots do the talking for me.
+
+Note that while I say I did not take part in the development of the game during this final rush it is not exactly true. I was, in a way, responsible for the artistic coherence of the environment, and to add some depth to our work, I developed some tools. Amongst other, I created a custom fader (see below) that hides part of the environment behind which the player might go.
+
+![fader](https://user-images.githubusercontent.com/41008899/221443892-140ed57e-6c8d-49df-977e-210a06273850.gif)  
+*The entrance of the office, with the use of our fader as a way to preserve the integrity of the building design while remaining comprehensible*
+
+![image](https://user-images.githubusercontent.com/41008899/221443443-0bfd54ea-43cd-48a3-85ac-c30f4bb3907e.png)
+*Kannath's bar, the first place you will got o start your investigation (go enjoy its musical atmosphere)!*
+
+![image](https://user-images.githubusercontent.com/41008899/221443504-9f4aff02-00ec-4d73-b7ed-3f91f677b344.png)
+*The dark alley you come out of when first arriving in the Plaza, our biggest environment, working as a hub*
+
+![image](https://user-images.githubusercontent.com/41008899/221443587-3506d792-ef92-41e3-ba3f-20d3de360cb0.png)
+*A little piece of a room in the factory*
+
+By the way, we also found a name for the game! **The Neptune Records - a folded reality**   
+Sounds cool doesn't it ? Did you get the *subtle* play on words with folded meaning modified, manipulated but also referring to us using folders and files to modify reality ?? Yeah we are quite proud ! 
+
+*Also a subtitle makes it more convenient for a sequel...*
 
 > **Technologies used:** Unity/C#, Miro, Aseprite, Git  
 >**Team size:** 5  
@@ -78,10 +111,10 @@ We discussed adding caves and thought that if not done properly, caves would pre
 
 <img width="624" alt="Capture d’écran 2022-11-23 180129" src="https://user-images.githubusercontent.com/41008899/203606153-060a9e4e-421e-4d89-952e-bfc0c0d6ef84.png">
 
-**Technologies used:** Unity/C#, Git  
-**Team size:** 7  
-**Project duration:** 48h    
-**Tasks:** Procedurally generated 3D map with biomes, ore veins and caves, 3D assets integration, Shaders ...   
+>**Technologies used:** Unity/C#, Git  
+>**Team size:** 7  
+>**Project duration:** 48h    
+>**Tasks:** Procedurally generated 3D map with biomes, ore veins and caves, 3D assets integration, Shaders ...   
 
 ### **Adventures under the sea, a school project in C++**
 
@@ -101,10 +134,10 @@ I also worked my way out of my comfort zone and experimented with the **Strategy
 
 Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-Sea).
 
-**Technologies used:** C++ (yep, no game engine this time! 😎), Git   
-**Team size:** 2  
-**Project duration:** 2 weeks    
-**Tasks:** Isometric tilemap generation, strategy design pattern for enemy behavior,pixel art assets production and integration  
+>**Technologies used:** C++ (yep, no game engine this time! 😎), Git   
+>**Team size:** 2  
+>**Project duration:** 2 weeks    
+>**Tasks:** Isometric tilemap generation, strategy design pattern for enemy behavior,pixel art assets production and integration  
 
 <br/>
 
@@ -125,10 +158,10 @@ During the Game Jam, I got to meet and befriend two amazing sound designers and 
 Play the game on [Itch.io](https://akasuna.itch.io/steppe-by-step)!
 Check out the game [here](https://github.com/Hugo-Carbiener/Steppe-by-step).
 
-**Technologies used:** Unity/C#, FMOD, Git     
-**Team size:** 6  
-**Project duration:** 48h  
-**Tasks:** Pathfinding, FMOD and sound integration, 3D asset integration, mathematics and geometry in a 3D space  
+>**Technologies used:** Unity/C#, FMOD, Git     
+>**Team size:** 6  
+>**Project duration:** 48h  
+>**Tasks:** Pathfinding, FMOD and sound integration, 3D asset integration, mathematics and geometry in a 3D space  
 
 <br/>
 
@@ -146,10 +179,10 @@ Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check o
 
 (No but really... go check it out... it's really cool! :eyes:)
 
-**Technologies used:** C#/Unity, Aseprite, Git     
-**Team size:** 7   
-**Project duration:** 48h    
-**Tasks:** 2D asset production and integration, project management in the graphist team     
+>**Technologies used:** C#/Unity, Aseprite, Git     
+>**Team size:** 7   
+>**Project duration:** 48h    
+>**Tasks:** 2D asset production and integration, project management in the graphist team     
 
 <br/>
 
@@ -165,10 +198,10 @@ the first thing I implemented was the dungeon generation system. Without really 
 
 Our game also relied on **Natural Language Processing** (NLP), to processing the sentence the player would write and translate them into actions to influence the world. We struggled a lot to get any results at first, but by slowly working our way up, dividing our task, we managed to get more and more bricks done. In the end, we had a convincing system that processed the player sentences, isolated the verbs and objects and could accurately starting the corresponding gameplay sequences.
 
-**Technologies used:** Java, Python, Git  
-**Team size:** 4  
-**Project duration:** 4 months  
-**Tasks:** Natural Language Processing, Dungeon, monster and weapon procedural generation  
+>**Technologies used:** Java, Python, Git  
+>**Team size:** 4  
+>**Project duration:** 4 months  
+>**Tasks:** Natural Language Processing, Dungeon, monster and weapon procedural generation  
 
 <br/>
 
@@ -186,10 +219,10 @@ It is fantastic to discover new tools that drastically enhance your **workflow**
 
 Play the game on [Itchi.io](https://flegmatik-surf.itch.io/neon-dice).
 
-**Technologies used:** C#/Unity, Aseprite, Git     
-**Team size:** 7   
-**Project duration:** 48h    
-**Tasks:** 2D asset production and integration  
+>**Technologies used:** C#/Unity, Aseprite, Git     
+>**Team size:** 7   
+>**Project duration:** 48h    
+>**Tasks:** 2D asset production and integration  
 
 <br/>
 
@@ -207,10 +240,10 @@ While the scope was very optimistic, we still managed to produce a playable game
 
 Play the game on [Itchi.io](https://skizaat.itch.io/sortit-till-you-make-it).
 
-**Technologies used:** C#/Unity, Blender, Git   
-**Team size:** 6   
-**Project duration:** 48h      
-**Tasks:** 3D Drag and drop system, 3D physics, Camera management 
+>**Technologies used:** C#/Unity, Blender, Git   
+>**Team size:** 6   
+>**Project duration:** 48h      
+>**Tasks:** 3D Drag and drop system, 3D physics, Camera management 
 
 <br/>
 
