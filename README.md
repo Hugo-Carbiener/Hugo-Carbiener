@@ -49,7 +49,7 @@ Right now, I am working on an interesting piece of game design and code: we have
 
 > **Second project Update - January 2023**
 
-The Cosmic Bin is up and running ! I am particularly fond of the aestetics of the scene ! I'll let you judge it by yourself! 
+The Cosmic Bin is up and running ! I am particularly fond of the aesthetics of the scene ! I'll let you judge it by yourself! 
 
 ![cosmicbin](https://user-images.githubusercontent.com/41008899/221442823-319c5daf-559b-4ef3-ad22-b6c907a38889.gif)
 
