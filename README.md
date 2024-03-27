@@ -18,7 +18,7 @@
 - [Neon Dice](https://flegmatik-surf.itch.io/neon-dice) | GTMK Game Jam 2022 | **Graphic designer**
 - [Sort'it 'till you make it](https://skizaat.itch.io/sortit-till-you-make-it) | Unijam 2021 | **Developer**
 
-:pencil2: - I also do **Pixel Art** when I have time. I've been part of a lot of awesome video game projects lately, be it as a graphic designer or developper. Come have a look, I post most of my drawings [here](https://www.reddit.com/user/K0huro/posts/).. I'm using [Aseprite](https://www.aseprite.org/) which is a fantastic tool for Pixel Art.
+:pencil2: - I also do **Pixel Art** when I have time. I've been part of a lot of awesome video game projects lately, be it as a graphic designer or developer. Come have a look, I post most of my drawings [here](https://www.reddit.com/user/K0huro/posts/).. I'm using [Aseprite](https://www.aseprite.org/) which is a fantastic tool for Pixel Art.
 
 :video_game: - Passionned about video games, [check it out](https://ggapp.io/Kohuro/collection)!
 
@@ -26,7 +26,7 @@
 
 <br/>
 
-The team working on [Mockoon](https://mockoon.com/) has been so kind as to welcome me **twice** for an internship during the Summers of 2021 and 2022. **Mockoon** is an open sourced dev tool that helps you design and mock APIs in seconds. There, I got to work on the project and add my little contribution to the application while getting a hang of Javascript, Typescript, Angular, NodeJS and so on. 
+The team working on [Mockoon](https://mockoon.com/) has been so kind as to welcome me **twice** for an internship during the Summers of 2021 and 2022. **Mockoon** is an open-source dev tool that helps you design and mock APIs in seconds. There, I got to work on the project and add my little contribution to the application while getting a hang of Javascript, Typescript, Angular, NodeJS and so on. 
 
 # **My video game projects**
 
@@ -34,39 +34,39 @@ The team working on [Mockoon](https://mockoon.com/) has been so kind as to welco
 
 ![clip (6) (1)](https://user-images.githubusercontent.com/41008899/204225375-31dedd04-91ac-44fc-a277-ca30a1d3a0db.gif)
 
-Top secret file is a game in the making for the sake of our end of the year's project. You are a Jovian investigator, sent to an infamous Megapolis on Triton. You are sent there to stop an ex-military who has been abusing his reality-altering powers. Use your own powers to see through the lies of the city and fulfill your mission. You powers allow you to bend reality at your will, by modifying game files in your file explorer.
+Top Secret File is a game in the making for the sake of our end-of-the-year project. You are a Jovian investigator, sent to an infamous Megapolis on Triton. You are sent there to stop an ex-military who has been abusing his reality-altering powers. Use your powers to see through the lies of the city and fulfil your mission. Your powers allow you to bend reality at your will, by modifying game files in your file explorer.
 
-The objective of this academic project is to **showcase the technical capabilities** mastered during our formation in the **Video Games and Digital Interaction** Master. In this project, I take the role of technical artist/art director and developer: I am in charge of production and integration of our 2D pixel art assets and get to take the decisions regarding the art choices. In parallel, we also aim at sharing the developpement tasks equally and, as such, I have also taken some technical tasks such as Tilemap-driven movement, 2D Collision mechanics and so on. 
+The objective of this academic project is to **showcase the technical capabilities** mastered during our formation in the **Video Games and Digital Interaction** Master. In this project, I take the role of technical artist/art director and developer: I am in charge of the production and integration of our 2D-pixel art assets and get to make the decisions regarding the art choices. In parallel, we also aim at sharing the development tasks equally and, as such, I have also taken some technical tasks such as Tilemap-driven movement, 2D Collision mechanics and so on. 
 
 > **Half-project Update - November 2022**
 
 At this point, we managed to set up the base gameplay for our game. As of now, the player can wander around in our world, interact with his environment and modify/delete/create files in his file explorer to modify his surroundings. 
 
-I started the project by working on the player movement. I wanted the player to remain aligned with the tilemap to mimic the feeling of 2D pokemon games. I thought it would be set and done in a few hours but it actually took some thinking: I wanted the player to be able to input a direction, then another and, when releasing >the second direction, resume going in the first direction. That forced me to introduce a pile system in which I would store inputs in a chronological order and retrieve which key was released to remove the corresponding input. In a way, I guess that doesn't make it a real pile as I can remove any item I want regardless of its position. Does that exists? Most likely. It is maybe called a FIMOASP Pile.... FIMOASP standing for **First in, Maybe out at some point** obviously.
+I started the project by working on the player movement. I wanted the player to remain aligned with the tilemap to mimic the feeling of 2D Pokemon games. I thought it would be set and done in a few hours but it actually took some thinking: I wanted the player to be able to input a direction, then another and, when releasing the second direction, resume going in the first direction. That forced me to introduce a pile system in which I would store inputs in chronological order and retrieve which key was released to remove the corresponding input. In a way, I guess that doesn't make it a real pile as I can remove any item I want regardless of its position. Does that exist? Most likely. It is maybe called a FIMOASP Pile.... FIMOASP standing for **First in, Maybe out at some point** obviously.
 
-In the mean time, I achieved to draw the assets for the office, our starting scene. I tinkered a bit with post processing and dynamic 2D lighting to achieve the office scene. Every piece of furniture is separated and interactable! I have also the first assets for the spatioport but this part isn't completed yet so I will work on it some more beforte posting it. 
+In the meantime, I achieved to draw the assets for the office, our starting scene. I tinkered a bit with post-processing and dynamic 2D lighting to achieve the office scene. Every piece of furniture is separated and interactable! I have also the first assets for the spaceport but this part isn't completed yet so I will work on it some more before posting it. 
 
 ![player-movement-front](https://cdn.discordapp.com/attachments/1045427891430752276/1046481469746462740/player.gif)
 
-Right now, I am working on an interesting piece of game design and code: we have struggled a bit on the question of what to do when a player deletes a file linked to an important gameObject. We thought that just restoring the files would be frustrating to the player. I suggested to create a scene where all the deleted gameObjects would appear and where the player could wander and interact with items to restore them to there pre-deletion state. Just like the bin in your OS! We called it the Cosmic Bin! I'll share more when it is implemented. 
+Right now, I am working on an interesting piece of game design and code: we have struggled a bit on the question of what to do when a player deletes a file linked to an important gameObject. We thought that just restoring the files would be frustrating to the player. I suggested creating a scene where all the deleted gameObjects would appear and where the player could wander and interact with items to restore them to their pre-deletion state. Just like the bin in your OS! We called it the Cosmic Bin! I'll share more when it is implemented. 
 
 > **Second project Update - January 2023**
 
-The Cosmic Bin is up and running ! I am particularly fond of the aesthetics of the scene ! I'll let you judge it by yourself! 
+The Cosmic Bin is up and running! I am particularly fond of the aesthetics of the scene! I'll let you judge it by yourself! 
 
 ![cosmicbin](https://user-images.githubusercontent.com/41008899/221442823-319c5daf-559b-4ef3-ad22-b6c907a38889.gif)
 
-The ripple effect was realised in shadergraph by adapting a tutorial found online. The main difficulty was to set the player as the epicenter of the ripple but also to find a way for the ripple to flow through the whole viewport and not simultaneously on each tile of the tilemap. 
+The ripple effect was realised in shadergraph by adapting a tutorial found online. The main difficulty was to set the player as the epicentre of the ripple but also to find a way for the ripple to flow through the whole viewport and not simultaneously on each tile of the tilemap. 
 
-You may wonder why there is a dog wandering in the unending void. Play the game to find out! 
+You may wonder why a dog is wandering in the unending void. Play the game to find out! 
 
-We are closing in on the end of the project. At this point, our classes are almost over and we will a few weeks to work on the project full-time.
+We are closing in on the end of the project. At this point, our classes are almost over and we will have a few weeks to work on the project full-time.
 
 > **End of project Update - February 2023**
 
 After three weeks of intensive full time on the project, the game is playable [here](https://akasuna.itch.io/the-neptune-records)! The whole team is quite exhausted but we are proud of the work behind us. During this last rush, I worked as a full-time artist. Indeed, by the end, the project needed too many assets for me to help my colleagues with the development. There is not much to talk about in this field so I will let a few screenshots do the talking for me.
 
-Note that while I say I did not take part in the development of the game during this final rush it is not exactly true. I was, in a way, responsible for the artistic coherence of the environment, and to add some depth to our work, I developed some tools. Amongst other, I created a custom fader (see below) that hides part of the environment behind which the player might go.
+Note that while I say I did not take part in the development of the game during this final rush it is not exactly true. I was, in a way, responsible for the artistic coherence of the environment, and to add some depth to our work, I developed some tools. Amongst others, I created a custom fader (see below) that hides part of the environment behind which the player might go.
 
 ![fader](https://user-images.githubusercontent.com/41008899/221443892-140ed57e-6c8d-49df-977e-210a06273850.gif)  
 *The entrance of the office, with the use of our fader as a way to preserve the integrity of the building design while remaining comprehensible*
@@ -81,7 +81,7 @@ Note that while I say I did not take part in the development of the game during 
 *A little piece of a room in the factory*
 
 By the way, we also found a name for the game! **The Neptune Records - a folded reality**   
-Sounds cool doesn't it ? Did you get the *subtle* play on words with folded meaning modified, manipulated but also referring to us using folders and files to modify reality ?? Yeah we are quite proud ! 
+Sounds cool doesn't it? Did you get the *subtle* play on words with folded meaning modified, and manipulated but also referring to us using folders and files to modify reality ?? Yeah, we are quite proud! 
 
 *Also a subtitle makes it more convenient for a sequel...*
 
@@ -96,19 +96,19 @@ Sounds cool doesn't it ? Did you get the *subtle* play on words with folded mean
 
 <img src="https://img.itch.zone/aW1hZ2UvMTc5ODcxMi8xMDU3NTEwMC5wbmc=/original/Jlx9dP.png" width="50%" height="50%">
 
-Lost in the Depths is single player game where your objective is to dig deep into the ground of an unknown planet to find its gem. You will have to dwell in the depths of a **procedurally generated** map, discover its biomes and collects tons of differents ores. As you dig your way down, oxygen will soon become an issue and you will have to plan accordingly. To do so, you can go back to your base and put your ores to use to upgrade your gear and craft oxygen relays.
+Lost in the Depths is a single-player game where your objective is to dig deep into the ground of an unknown planet to find its gem. You will have to dwell in the depths of a **procedurally generated** map, discover its biomes and collect tons of different ores. As you dig your way down, oxygen will soon become an issue and you will have to plan accordingly. To do so, you can go back to your base and put your ores to use to upgrade your gear and craft oxygen relays.
 
 This project won the **jury price of the Unijam** and team members received rewards from **Ubisoft Annecy**, one of the sponsors of the event.
 
-I took part in this jam as **developer**, and I essentially developped the procedural generation of the map. In a way, our game takes from **Terraria** as you evolve in a 2D world and do things such as mining and crafting. But it also takes from 3D cubic/voxel games such as Minecraft as our 2D world is really a flat 3D scene. 
+I took part in this jam as **developer**, and I essentially developed the procedural generation of the map. In a way, our game takes from **Terraria** as you evolve in a 2D world and do things such as mining and crafting. But it also takes from 3D cubic/voxel games such as Minecraft as our 2D world is really a flat 3D scene. 
 
 **Development insights**
 
-It has been an absolute blast to work on the procedural generation! Seeing our flat map gradually be filled with details: biome variations depending on the depth, unbreakable limits, ore generation, ore generation as veins, ore blending depending of the biome etc.
+It has been an absolute blast to work on the procedural generation! Seeing our flat map gradually be filled with details: biome variations depending on the depth, unbreakable limits, ore generation, ore generation as veins, ore blending depending on the biome etc.
 
 <img width="628" alt="Capture d’écran 2022-11-23 174751" src="https://user-images.githubusercontent.com/41008899/203604819-808d4f66-c131-43e3-9a23-8c7a22cbff46.png">
 
-As you can see, the map is divided vertically into biomes. All three types of ore can be found in pretty much any biomes. Yet, their apparition rate follows a gaussian probability centered in the average height of the biome. There is also a script that group the ores together as veins with variable sizes.
+As you can see, the map is divided vertically into biomes. All three types of ore can be found in pretty much any biome. Yet, their apparition rate follows a Gaussian probability centred on the average height of the biome. There is also a script that group the ores together as veins with variable sizes.
 
 We discussed adding caves and thought that if not done properly, caves would pretty much look like generation errors. Yet, when we added the elevator, it appeared that having a small cavity at the bottom of the elevator shaft would offer the player some space. As such, I implemented a method to dig out cavities based on several properties.
 
