@@ -8,11 +8,14 @@
 ---
 #### What I do
 
+🦦 - I have been working on my video game project for over a year. I recently started sharing my journey through [blog articles](https://seaotter.games/).
+
 :alarm_clock: - I absolutely love taking part in **Game Jams**. The objective is to form a team and develop a video game from scratch in 48 hours. Have a look at the games I took part in the making:
+- [Clown Comedy Care](https://biscuitprime.itch.io/clown-comedy-care) | Global Game Jam 2024 | **Graphic designer**
 - [Lost in the Depths](https://skizaat.itch.io/lost-depths) | Unijam 2022 | **Developer** 
 - [Steppe by Step](https://akasuna.itch.io/steppe-by-step) | Archeological Game Jam - Etiolles 2022 | **Developer**
-- [Geckolot](https://mathieu-coutant.itch.io/geckolot) | Global Game Jam 2022 | **Lead graphic designer & developer**
-- [Neon Dice](https://flegmatik-surf.itch.io/neon-dice) | GTMK Game Jam 2022 | **Lead graphic designer**
+- [Geckolot](https://mathieu-coutant.itch.io/geckolot) | Global Game Jam 2022 | **Graphic designer & developer**
+- [Neon Dice](https://flegmatik-surf.itch.io/neon-dice) | GTMK Game Jam 2022 | **Graphic designer**
 - [Sort'it 'till you make it](https://skizaat.itch.io/sortit-till-you-make-it) | Unijam 2021 | **Developer**
 
 :pencil2: - I also do **Pixel Art** when I have time. I've been part of a lot of awesome video game projects lately, be it as a graphic designer or developper. Come have a look, I post most of my drawings [here](https://www.reddit.com/user/K0huro/posts/).. I'm using [Aseprite](https://www.aseprite.org/) which is a fantastic tool for Pixel Art.
