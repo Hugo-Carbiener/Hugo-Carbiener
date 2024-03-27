@@ -3,7 +3,7 @@
 
 ### Hi there 👋
 
-:wrench: - I'm Hugo, an **engineering student at [Telecom Sudparis](https://www.telecom-sudparis.eu), in game dev specialisation**. There I get to learn about many aspects of telecommunications along with programming languages such as Bash, Java, C#, PHP and so on. But truth be told, I am here to learn about video game making. 
+:wrench: - I'm Hugo, an **engineering graduate from [Telecom Sudparis](https://www.telecom-sudparis.eu), (game dev specialisation)**. There I got to learn about many aspects of telecommunications along with programming languages such as Bash, Java, C#, PHP and so on. But truth be told, I went there to learn about video game making and take part in game jams. Right now, I work as a backend developer at **Ankama** as part of the **Dofus TOUCH** team. 
 
 ---
 #### What I do
