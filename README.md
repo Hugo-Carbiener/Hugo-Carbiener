@@ -22,11 +22,15 @@
 
 :video_game: - Passionned about video games, [check it out](https://ggapp.io/Kohuro/collection)!
 
-# **My professional experience**
+# **Overview of my experience**
 
 <br/>
 
-The team working on [Mockoon](https://mockoon.com/) has been so kind as to welcome me **twice** for an internship during the Summers of 2021 and 2022. **Mockoon** is an open-source dev tool that helps you design and mock APIs in seconds. There, I got to work on the project and add my little contribution to the application while getting a hang of Javascript, Typescript, Angular, NodeJS and so on. 
+I joined the team working on [Mockoon](https://mockoon.com/) twice for internships during the Summers of 2021 and 2022. **Mockoon** is an open-source dev tool that helps you design and mock APIs in seconds. This was the opportunity to give a hand to this promising project and deliver major features (like data buckets) to thousands of developers worldwide.
+
+After a successful six months internship, I was hired at Ankama, as part of the server team on the game Dofus TOUCH. amongst other things, I have been in charge of the -long awaited- rewamp of our Player versus Player feature which resulted in more than a hundred thousands matches on launch day. Through this task, I tackled subjects such as matchmaking and ranking algorithms.
+
+Aside from developing features and fixing bugs, backend devs also have the responsibility of maintaining servers and shipping new changes. As such, I have been regularly running dev ops processes of servers hosting tens of thousands of unique players daily. 
 
 # **My video game projects**
 
@@ -278,11 +282,3 @@ Play the game on [Itchi.io](https://skizaat.itch.io/sortit-till-you-make-it).
 <br/>
 
 <img src="https://user-images.githubusercontent.com/41008899/193759600-35e97ce7-7466-4a56-97b8-c07234dc3846.png" width="50%" height="50%">
----
-
-### **Find me here**
-<div>
-<a href="https://www.linkedin.com/in/hugo-carbiener/"><img src="https://user-images.githubusercontent.com/41008899/193760652-86ac2ba7-a8a6-4b04-ae52-3906e7f5b43b.png" style="width:33%;padding-left:5px;"><a/>
-<a href="https://www.discordapp.com/users/Kohuro#0702"><img src="https://user-images.githubusercontent.com/41008899/193761412-8d8d5b7f-3a65-4c32-8a12-6bd64b45fc79.png" style="width:33%;padding-left:5px;"><a/>
- <a href="https://kohuro.itch.io/"><img src="https://static.itch.io/images/badge.svg" style="width:33%;padding-left:5px;"><a/>
-</div>
