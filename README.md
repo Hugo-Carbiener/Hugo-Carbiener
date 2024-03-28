@@ -28,13 +28,13 @@
 
 I joined the team working on [Mockoon](https://mockoon.com/) twice for internships during the Summers of 2021 and 2022. **Mockoon** is an open-source dev tool that helps you design and mock APIs in seconds. This was the opportunity to give a hand to this promising project and deliver major features (like data buckets) to thousands of developers worldwide.
 
-After a successful six months internship, I was hired at Ankama, as part of the server team on the game Dofus TOUCH. amongst other things, I have been in charge of the -long awaited- rewamp of our Player versus Player feature which resulted in more than a hundred thousands matches on launch day. Through this task, I tackled subjects such as matchmaking and ranking algorithms.
+After a successful six months internship, I was hired at Ankama, as part of the server team on the game Dofus TOUCH. amongst other things, I have been in charge of the -long-awaited- revamp of our Player versus Player feature which resulted in more than a hundred thousand matches on launch day. Through this task, I tackled subjects such as matchmaking and ranking algorithms.
 
-Aside from developing features and fixing bugs, backend devs also have the responsibility of maintaining servers and shipping new changes. As such, I have been regularly running dev ops processes of servers hosting tens of thousands of unique players daily. 
+Aside from developing features and fixing bugs, I as a backend dev also have the responsibility of maintaining servers and shipping new changes. As such, I have been regularly running dev ops processes on servers hosting tens of thousands of unique players daily. 
 
 # **My video game projects**
 
-### **Top Secret File, our WIP**
+### **Top Secret File, Master's final project**
 
 ![clip (6) (1)](https://user-images.githubusercontent.com/41008899/204225375-31dedd04-91ac-44fc-a277-ca30a1d3a0db.gif)
 
@@ -94,7 +94,7 @@ Sounds cool doesn't it? Did you get the *subtle* play on words with folded meani
 >**Project duration:** 6 months    
 >**Tasks:** Tilemap management, 2D collision, file surveying and processing, 
 
-### **Lost in the Depths, our Unijam 2022 project**
+### **Lost in the Depths, Unijam 2022 submission (won the Ubisoft sponsored jury's price 🥳)**
 
 <br/>
 
@@ -123,7 +123,7 @@ We discussed adding caves and thought that if not done properly, caves would pre
 >**Project duration:** 48h    
 >**Tasks:** Procedurally generated 3D map with biomes, ore veins and caves, 3D assets integration, Shaders ...   
 
-### **Adventures under the sea, a school project in C++**
+### **Adventures under the sea, a C++ school project**
 
 <br/>
 
@@ -148,19 +148,19 @@ Check out the game [here](https://github.com/BiscuitPrime/Adventures-Under-The-S
 
 <br/>
 
-### **Steppe by step, our Archeologic Game Jam project**
+### **Steppe by step, Etiolles Archeologic Game Jam submission**
 
 <br/>
 
 <img src="https://user-images.githubusercontent.com/41008899/194828151-81457301-b07a-49a2-ae49-9b22ab2412d9.png" width="50%" height="50%">
 
-Steppe by step is a single player game where you control a tribe of hunter gatherers through the prehistorical steppe in search of traces that could lead you towards the herd of reindeer roaming this place. This game was made during the Archeological Game Jam that took place in the C19 incubator in Evry, France in partnership with the excavation site of Etiolles, France. 
+Steppe by Step is a single player game where you control a tribe of hunter-gatherers through the prehistorical steppe in search of traces that could lead you towards the herd of reindeer roaming this place. This game was made during the Archeological Game Jam that took place in the C19 incubator in Evry, France in partnership with the excavation site of Etiolles, France. 
 
-I took part in this Jam as **developer** this time. As expected, the weekend was not exactly smooth sailing and we encoutered many hurdles from trying to work with [FMOD](https://www.fmod.com/) to using data issued by the archeologists to add realistic details. FMOD has been an absolute nightmare integrate to our project and brought the dreaded git issues. I swear, sometimes, it feels like git has been built on a cursed graveyard. However, FMOD turned out to be an impressive tool! It allowed our sound designers to produce adaptative sounds and music, and, on our end, to integrate them very intuitively. 
+I took part in this Jam as **developer** this time. As expected, the weekend was not exactly smooth sailing and we encountered many hurdles from trying to work with [FMOD](https://www.fmod.com/) to using data issued by the archeologists to add realistic details. FMOD has been an absolute nightmare to integrate into our project and brought the dreaded git issues. I swear, sometimes, it feels like Git has been built on a cursed graveyard. However, FMOD turned out to be an impressive tool! It allowed our sound designers to produce adaptative sounds and music, and, on our end, to integrate them very intuitively. 
 
-This Game Jam was also the opportunity for me to get ahold of the basics of pathfinding. I was in charge of making our characters move in a 3D world generated using real topographic data. I would have loved to have more time to polish my system but it clearly did the job! 
+This Game Jam was also an opportunity for me to get ahold of the basics of pathfinding. I was in charge of making our characters move in a 3D world generated using real topographic data. I would have loved to have more time to polish my system but it clearly did the job! 
 
-During the Game Jam, I got to meet and befriend two amazing sound designers and an archeologist. This was a truly rich human experience! 
+During the Game Jam, I got to meet and befriend two amazing sound designers and an archaeologist. This was a truly rich human experience! 
 
 Play the game on [Itch.io](https://akasuna.itch.io/steppe-by-step)!
 Check out the game [here](https://github.com/Hugo-Carbiener/Steppe-by-step).
@@ -172,17 +172,17 @@ Check out the game [here](https://github.com/Hugo-Carbiener/Steppe-by-step).
 
 <br/>
 
-### **Geckolot, our 2022 Global Game Jam project**
+### **Geckolot, 2022 Global Game Jam submission**
 
 <br/>
 
 <img src="https://user-images.githubusercontent.com/41008899/153009120-aeb54a6e-a5ba-48bc-9e63-17574a7d7fa1.png" width="50%" height="50%">
 
-Geckolot is a two-player plateformer inspired by the theme **Duality** for the 2022 Global Game Jam. You can either control an extroverted axolotl with attraction powers or an introverted gecko that tends to push others away. 
+Geckolot is a two-player platformer inspired by the theme **Duality** for the 2022 Global Game Jam. You can either control an extroverted axolotl with attraction powers or an introverted gecko that tends to push others away. 
 
-As lead graphist, I produced most of the pixel art assets you can see (including the logo I am so proud of 😝). But while that was nice and rewarding, I also got the opportunity to intoduce a friend, in junior year, to pixel art. she loved it and I was able to assist her with some old examples work and pieces of advice. In the end she produced amazing assets that made our game even better-looking!
+As lead graphist, I produced most of the pixel art assets you can see (including the logo I am so proud of 😝). But while that was nice and rewarding, I also got the opportunity to introduce a friend, in junior year, to pixel art and to give her some tips and tricks. She loved it and I was able to assist her with some old examples of work and pieces of advice. In the end, she produced amazing assets that made our game even better-looking!
 
-Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check out our project in more details [here](https://github.com/Hugo-Carbiener/Geckolot)!
+Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check out our project in more detail [here](https://github.com/Hugo-Carbiener/Geckolot)!
 
 (No but really... go check it out... it's really cool! :eyes:)
 
@@ -193,7 +193,7 @@ Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check o
 
 <br/>
 
-### **Dungeon Speaker, an academic dev project**
+### **Dungeon Speaker, java school project**
 
 <br/>
 
@@ -201,9 +201,9 @@ Play the game on [Itchi.io](https://mathieu-coutant.itch.io/geckolot) or check o
 
 **Dungeon Speaker** is a *text-based* dungeon crawler inspired from [AI Dungeon](https://play.aidungeon.io/). We worked on it as a team of four junior students at Telecom Sudparis for our **oriented object programming** class. Sadly, being our first game, the build was somewhat messy and is not playable anymore. 
 
-the first thing I implemented was the dungeon generation system. Without really knowing it, I coded a procedural generation algorithm to generate our dungeon. It took the form of a non-binary tree where each room could lead to other rooms and so on. Room were also procedurally seasonned with monsters, loot and random events with which the player could interact. The achievement I was the most proud of was the map display system. As mentionned, the game was text-based, so, in text, I managed to display the procedurally generated tree of rooms and corridors.
+the first thing I implemented was the dungeon generation system. Without really knowing it, I coded a procedural generation algorithm to generate our dungeon. It took the form of a non-binary tree where each room could lead to other rooms and so on. Room were also procedurally seasonned with monsters, loot and random events with which the player could interact. The achievement I was the most proud of was the map display system. As mentioned, the game was text-based, so, in text, I managed to display the procedurally generated tree of rooms and corridors.
 
-Our game also relied on **Natural Language Processing** (NLP), to processing the sentence the player would write and translate them into actions to influence the world. We struggled a lot to get any results at first, but by slowly working our way up, dividing our task, we managed to get more and more bricks done. In the end, we had a convincing system that processed the player sentences, isolated the verbs and objects and could accurately starting the corresponding gameplay sequences.
+Our game also relied on **Natural Language Processing** (NLP), to process the sentence the player would write and translate them into actions to influence the world. We struggled a lot to get any results at first, but by slowly working our way up, dividing our task, we managed to get more and more bricks done. In the end, we had a convincing system that processed the player sentences, isolated the verbs and objects and could accurately starting the corresponding gameplay sequences.
 
 >**Technologies used:** Java, Python, Git  
 >**Team size:** 4  
@@ -212,17 +212,17 @@ Our game also relied on **Natural Language Processing** (NLP), to processing the
 
 <br/>
 
-### **Neon Dice, our 2022 GMTK Game Jam project**
+### **Neon Dice, 2022 GMTK Game Jam submission**
 
 <br/>
 
 <img src="https://user-images.githubusercontent.com/41008899/188655584-762db231-84c5-4257-bd18-8f34a10e9bef.gif" width="50%" height="50%">
 
-Neon Dice is a two player **hack n' slash** inspired by the theme **Roll of the Dice** for the 2022 GMTK Game Jam. Each player controls one of the two dices. Each face of your dice corresponds to a particular weapon with a fixed amount of ammunition. If you run out of ammo, you will have to regroup with your teammate so they can roll you. But beware, if you get rolled, your weapon will most likely change as well, so be prepared!   
+Neon Dice is a two-player **hack n' slash** inspired by the theme **Roll of the Dice** for the 2022 GMTK Game Jam. Each player controls one of the two dice. Each face of your dice corresponds to a particular weapon with a fixed amount of ammunition. If you run out of ammo, you will have to regroup with your teammate so they can roll you. But beware, if you get rolled, your weapon will most likely change as well, so be prepared!   
 
-Despite a few issues during the developpement, the game turned out accordingly to our expectations and I am particularly proud of the art and of the workflow I managed to achieve. 
+Despite a few issues during the development, the game turned out according to our expectations and I am particularly proud of the art and of the workflow I managed to achieve. 
 
-It is fantastic to discover new tools that drastically enhance your **workflow**. Well that is a particularly good example. I am using **Aseprite** to draw my pixel-art assets and amongst many fantastic tools, aseprite offers a **scripting API**. Browsing itch.io, I found a script which, for a few dollars, would allow me to export parts of my drawing in a single click (and as a spritesheet if I was drawing animations)! No more need to single out every asset and its variations in a seperate file and then export it, now this whole process is instant. Even better, Unity keeps reference of your sprite and the modifications applied and links it to the sprite file. So as long as your export with the same name as previously, all the modifications will be instanly applied and all the objects and prefabs will have the new sprite. What does all this paragraph means? I can redraw some assets, make some slight modifications, anything ... and in a single click, all my sprite are updated and remain in the right place in Unity, I am super proud of my pipeline. 
+It is fantastic to discover new tools that drastically enhance your **workflow**. Well, that is a particularly good example. I am using **Aseprite** to draw my pixel-art assets and amongst many fantastic tools, aseprite offers a **scripting API**. Browsing itch.io, I found a script which, for a few dollars, would allow me to export parts of my drawing in a single click (and as a sprite sheet if I was drawing animations)! No more need to single out every asset and its variations in a separate file and then export it, now this whole process is instant. Even better, Unity keeps a reference of your sprite and the modifications applied and links it to the sprite file. So as long as your export with the same name as previously, all the modifications will be instantly applied and all the objects and prefabs will have the new sprite. What does all this paragraph mean? I can redraw some assets, make some slight modifications, anything ... and in a single click, all my sprites are updated and remain in the right place in Unity, I am super proud of my pipeline. 
 
 Play the game on [Itchi.io](https://flegmatik-surf.itch.io/neon-dice).
 
@@ -233,15 +233,15 @@ Play the game on [Itchi.io](https://flegmatik-surf.itch.io/neon-dice).
 
 <br/>
 
-### **Sort'it 'till you make it, our 2021 Unijam project**
+### **Sort'it 'till you make it, 2021 Unijam project submission**
 
 <br/>
 
 <img src="https://img.itch.zone/aW1hZ2UvMTI3NjU4Ny83NDM4NjQyLmpwZw==/original/qgxAdK.jpg" width="50%" height="50%">
 
-Sort'it 'till you make it was the game made during my first Game Jam, the 2021 **Unijam**. The aim is to sort trash properly while putting aside some items to sell them of the black market for extra cash. Still, you must not get caught by your boss while stealing trash.   
+Sort'it 'till you make it was the game made during my first ever Game Jam, 2021 **Unijam**. The aim is to sort trash properly while putting aside some items to sell them on the black market for extra cash. Still, you must not get caught by your boss while stealing trash.   
 
-The first thing I implemented was a 3D drag and drop system. It was real math-heavy and toop me a little while, but the result was satisfying and held the base of our whole game.
+The first thing I implemented was a 3D drag-and-drop system. It was real math-heavy and took me a little while, but the result was satisfying and held the base of our whole game.
 
 While the scope was very optimistic, we still managed to produce a playable game. It lacks polish but taught us to define a clear and concise scope when starting a Jam.
 
