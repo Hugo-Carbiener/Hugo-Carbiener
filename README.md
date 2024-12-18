@@ -20,7 +20,7 @@
 
 :pencil2: - I also do **Pixel Art** when I have time. I've been part of a lot of awesome video game projects lately, be it as a graphic designer or developer. Come have a look, I post most of my drawings [here](https://www.reddit.com/user/K0huro/posts/).. I'm using [Aseprite](https://www.aseprite.org/) which is a fantastic tool for Pixel Art.
 
-:video_game: - Passionned about video games, [check it out](https://ggapp.io/Kohuro/collection)!
+:video_game: - Passioned about video games, [check it out](https://ggapp.io/Kohuro/collection)!
 
 # **Overview of my experience**
 
